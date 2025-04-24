@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Analysis Result</h1>
+        </div>
+        <p id="resultText" class="large-text">{{ prediction_text }}</p>
+        <img src="{{ emoji_url }}" alt="Emoji" class="emoji">
+        <div class="navigation">
+            <a href="/" class="button">Back to Index</a>
+            <!-- Additional functionality for feedback can be added here -->
+        </div>
+    </div>
+</body>
+</html>

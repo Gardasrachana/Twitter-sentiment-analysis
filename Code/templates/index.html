@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Cloud-based Twitter Sentiment Analysis in AWS</h1>
+        </div>
+        <form action="/predict" method="post">
+            <label for="message">Type Your Tweet</label>
+            <input type="text" id="message" name="message" placeholder="Tweet Here" required>
+            <button type="submit">Check The Sentiment</button>
+        </form>
+    </div>
+</body>
+</html>

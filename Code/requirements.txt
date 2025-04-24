@@ -1,0 +1,10 @@
+Flask
+nltk
+numpy
+pandas
+scikit-learn
+pickle5
+boto3
+gunicorn
+
+
